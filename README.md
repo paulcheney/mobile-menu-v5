@@ -1,2 +1,2 @@
 # Mobile Menu v5
-A stylesheet for small screen navigation
+Two Level Navigation with hamburger for small screens and a down arrow for parent menu items.

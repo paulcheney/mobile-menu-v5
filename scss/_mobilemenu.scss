@@ -1,10 +1,5 @@
-/*Change the menubar color on line 23 */
+/*Adjust the media query max-width value on line 5 to match your breakpoint between the small and medium screens OR between the medium and large screens*/
 
-/*Adjust the media query max-width value on line 12 to match your breakpoint between the small and medium screens OR between the medium and large screens*/
-
-
-/*  apply a natural box layout model to all elements  */
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 // must be 1px less that the medium css breakpoint!!!
 @media only screen and (max-width: 34.9375rem) {
@@ -32,7 +27,6 @@ nav button {
 		margin: 0;
 		padding: 0;
 		z-index: 998;
-        font-family: Verdana;
         font-weight: normal;
 	}
     #primaryNav li.active a{background-color: rgba(0,0,0,0.25);}

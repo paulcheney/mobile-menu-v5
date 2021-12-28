@@ -52,22 +52,20 @@ header h1 { font-size: 1.6rem; }
 header h2 { font-size: 1.2rem; }
 
 /* MAIN  */
+main { grid-row-start: 3; }
 main p { padding: .5rem 2vw; }
+main h1 { padding: .5rem 2vw; font-size: 2rem; color: #1698cb; }
 
 /* FOOTER  */
 footer { background-color: black; padding: 1rem 0; color: #eee; text-align: center; }
 footer a { color: #eee; }
 
-/*Change the menubar color on line 23 */
-/*Adjust the media query max-width value on line 12 to match your breakpoint between the small and medium screens OR between the medium and large screens*/
-/*  apply a natural box layout model to all elements  */
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-@media only screen and (max-width: 34.9375rem) { nav { background-color: orange; }
+/*Adjust the media query max-width value on line 5 to match your breakpoint between the small and medium screens OR between the medium and large screens*/
+@media only screen and (max-width: 34.9375rem) { nav { background-color: #0a4894; }
   /* Navigation Button  -------------------------------------------------------- */
-  nav button { width: 100%; padding: .2rem 2vw; text-align: left; background: transparent; border: none; font-size: 2rem; color: #000; cursor: pointer; }
+  nav button { width: 100%; padding: .2rem 2vw; text-align: left; background: transparent; border: none; font-size: 2rem; color: #FFF; cursor: pointer; }
   /* Navigation Bar -------------------------------------------------------- */
-  #primaryNav { height: 0; overflow: hidden; margin: 0; padding: 0; z-index: 998; font-family: Verdana; font-weight: normal; }
+  #primaryNav { height: 0; overflow: hidden; margin: 0; padding: 0; z-index: 998; font-weight: normal; }
   #primaryNav li.active a { background-color: rgba(0, 0, 0, 0.25); }
   #primaryNav li a { display: block; width: 100%; padding: .75rem 2vw; font-size: 14px; text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.15); color: white; text-decoration: none; border-top: 1px solid rgba(0, 0, 0, 0.2); }
   #primaryNav li a:hover { background-color: rgba(0, 0, 0, 0.5); }
@@ -84,12 +82,12 @@ footer a { color: #eee; }
 /* End Mobile Styles */
 @media only screen and (min-width: 35rem) { /*  ----------------------- NAVIGATION --------------------------- */
   nav button { display: none; }
-  nav { background-color: orange; }
+  nav { background-color: #0a4894; }
   nav ul { margin-left: 2%; display: flex; border-left: 1px solid rgba(0, 0, 0, 0.1); }
   nav ul li { border-right: 1px solid rgba(0, 0, 0, 0.1); }
   nav ul li a { display: block; border: none; font-size: 1rem; padding: .9rem 1.2rem; color: white; text-decoration: none; /*transition*/ -webkit-transition: background 0.3s linear; transition: background 0.3s linear; }
-  nav ul li a:hover { background: #e69500; }
-  nav ul li ul { z-index: 99; position: absolute; background-color: #ffb733; left: -999rem; width: 12rem; display: flex; flex-wrap: wrap; }
+  nav ul li a:hover { background: #083c7c; }
+  nav ul li ul { z-index: 99; position: absolute; background-color: #0d5fc4; left: -999rem; width: 12rem; display: flex; flex-wrap: wrap; }
   nav ul li ul li { width: 12rem; border-right: none; border-top: solid 1px rgba(0, 0, 0, 0.2); }
   nav ul li:hover ul { /* this displays the menus as drop downs  */ left: auto; margin-left: 0; }
   nav li.active a { background-color: rgba(0, 0, 0, 0.25); } }
